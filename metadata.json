@@ -1,0 +1,6 @@
+{
+  "name": "한희경 AI 아카데미",
+  "description": "비전공자도 쉽게 배우는 생성형 AI 실전교육",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

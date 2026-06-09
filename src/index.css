@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans KR", "Inter", sans-serif;
+  --font-serif: "Gowun Batang", serif;
+  
+  --color-cream: #FFF8F0;
+  --color-deeppurple: #4C1D95;
+  --color-gold: #F59E0B;
+  --color-violet: #7C3AED;
+  --color-darkgray: #1F2937;
+  --color-softcream: #FFFDF9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-darkgray);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar to keep layout highly polished and matching deep purple theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: #E5D5C5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-violet);
+}
